@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navbarLinks {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbarLinksLogo {
+    margin-right: 2rem;
+}
+
+.navbarLinksLogo img {
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.navbarLinksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarSign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarLinksContainer p, .navbarSign p, .navbarMenuContainer p {
+    color: #fff;
+    font-family:  var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbarSign button, .navbarMenuContainer button {
+    background: #FF4820;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbarMenu {
+    margin: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbarMenu svg {
+    cursor: pointer;
+}
+
+.navbarMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbarMenuContainer p {
+    margin: 1rem 0;
+}
+
+.navbarMenuContainerlinksSign {
+    display: none;
+}
+
+@media screen and ( max-width : 1050px) {
+    .navbarLinksContainer {
+        display: none;
+    }
+
+    .navbarMenu {
+        display: flex;
+    }
+}
+
+@media screen and ( max-width : 700px) {
+    .navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and ( max-width : 550px) {
+    .navbar {
+        padding: 2rem ;
+    }
+
+    .navbarSign {
+        display: none;
+    }
+
+    .navbarMenuContainer {
+        top: 20px;
+    }
+
+    .navbarMenuContainerLinksSign {
+        display: block;
+    }
+}
