@@ -21,12 +21,12 @@ const Header = () => {
           <button type="button">Get Started</button>
         </div>
         <div className="headerContentPeople">
-          <img src={people} alt="people" />
+          <img loading="lazy" src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
       <div className="headerImage">
-        <img src={ai} alt="ai" />{" "}
+        <img loading="lazy" src={ai} alt="ai" />{" "}
       </div>
     </div>
   );

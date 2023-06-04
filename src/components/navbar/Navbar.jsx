@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbarLinks">
         <div className="navbarLinksLogo">
-          <img src={logo} alt="logo" />
+          <img loading="lazy" src={logo} alt="logo" />
         </div>
         <div className="navbarLinksContainer">
           <Menu />

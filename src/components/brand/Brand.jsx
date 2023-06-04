@@ -29,7 +29,7 @@ const Brand = () => {
     <div className="brand sectionPadding">
       {brandItem.map((item, index) => (
         <div>
-          <img key={index} src={item.src} alt={item.alt} />
+          <img loading="lazy" key={index} src={item.src} alt={item.alt} />
         </div>
       ))}
     </div>

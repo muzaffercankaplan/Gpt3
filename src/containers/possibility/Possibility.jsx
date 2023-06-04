@@ -6,7 +6,7 @@ const Possibility = () => {
   return (
     <div className="possibility sectionPadding" id="possibility">
       <div className="possibilityImage">
-        <img src={possibility} alt="possibility" />
+        <img loading="lazy" src={possibility} alt="possibility" />
       </div>
       <div className="possibilityContent">
         <h4>Request Early Access to Get Started</h4>

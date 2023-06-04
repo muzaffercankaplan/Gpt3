@@ -16,7 +16,7 @@ const Footer = () => (
 
     <div className="footerLinks">
       <div className="footerLinksLogo">
-        <img src={gpt3Logo} alt="gpt3Logo" />
+        <img loading="lazy" src={gpt3Logo} alt="gpt3Logo" />
         <p>
           Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
         </p>

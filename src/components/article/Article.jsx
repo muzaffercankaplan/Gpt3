@@ -4,7 +4,7 @@ import "./article.css";
 const Article = ({ imgUrl, date, text }) => (
   <div className="blogContainerArticle">
     <div className="blogContainerArticleImage">
-      <img src={imgUrl} alt="blog_image" />
+      <img loading="lazy" src={imgUrl} alt="blog_image" />
     </div>
     <div className="blogContainerArticleContent">
       <div>
