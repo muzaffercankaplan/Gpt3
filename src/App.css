@@ -30,18 +30,18 @@ a{
     background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
   }
 
-  .gradient__text {
+  .gradientText {
     background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clop: text ;
     -webkit-text-fill-color: transparent;
   }
 
-  .section__padding {
+  .sectionPadding {
     padding : 4rem 6rem;
   }
 
-  .section__margin {
+  .sectionMargin {
     margin : 4rem 6rem;
   }
 
@@ -71,22 +71,22 @@ a{
     }
   }
 
-  @media screen and (max-wşdth: 700px) {
-    .section__padding {
+  @media screen and (max-width: 700px) {
+    .sectionPadding {
         padding: 4rem ;
     }
 
-    .section__margin {
+    .sectionMargin {
         margin: 4rem;
     }
   }
   
-  @media screen and (max-wşdth: 550) {
-    .section__padding {
-        padding: 4rem 2rem ;
+  @media screen and (max-width: 550px) {
+    .sectionPadding {
+        padding: 2rem 2rem ;
     }
 
-    .section__margin {
+    .sectionMargin {
         margin: 4rem 2rem;
     }
   }
